@@ -8,7 +8,7 @@
 
         for (let i = 0; i < qtd; i++) {               // vamos usar o laço de repetição for, já que não precisamos nos
             if (typeof arguments[i] !== "number") {   // preocupar com a quantidade de vezes que o laço for executado e
-                throw Error("Apenas números")         // não vamos nos preocupar com a verificação para sair do laço de repetição
+                throw Error("Insira apenas números")    // não vamos nos preocupar com a verificação para sair do laço de repetição
                 // caso não seja inseridos números nos parâmetros irá disparar  um erro
             }
             total += arguments[i] // aqui será feita a soma dos parâmetros passados 
